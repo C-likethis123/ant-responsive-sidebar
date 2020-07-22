@@ -1,0 +1,10 @@
+.navbar {
+  background-color: white;
+}
+
+@media (min-width: 992px) {
+  .menu {
+    display: none;
+  }
+}
+
