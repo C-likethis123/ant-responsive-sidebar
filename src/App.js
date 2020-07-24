@@ -22,7 +22,7 @@ function App() {
       <NavBar menu={Menu}/>
       <Layout>
         <SideBar menu={Menu} />
-        <Layout.Content>
+        <Layout.Content className="content">
           {topics[contentIndex]}
         </Layout.Content>
       </Layout>
