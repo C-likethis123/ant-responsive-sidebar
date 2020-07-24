@@ -1,22 +1,20 @@
 import React, {useState} from "react";
-import {Layout, Menu, Drawer, Button} from "antd";
-import Icon, {MenuOutlined} from "@ant-design/icons";
+import {Drawer, Button} from "antd";
+import {MenuOutlined} from "@ant-design/icons";
 import "./NavBar.css";
 import logo from './../../logo.svg';
 
 const NavBar = ({menu}) => {
   const [visible, setVisible] = useState(false);
   return (
-    <Layout.Header className="navbar">
-      <Menu theme="light" mode="horizontal">
-        <Button
+    <nav>
+      <Button
           className="menu"
           type="primary"
           icon={<MenuOutlined />}
           onClick={() => setVisible(true)}
-        />
-        <Menu.Item key="0">
-          <Drawer
+      />
+      <Drawer
             title="Topics"
             placement="left"
             onClick={() => setVisible(false)}
@@ -25,20 +23,9 @@ const NavBar = ({menu}) => {
           >
           {menu}
           </Drawer>
-        </Menu.Item>
-        <Menu.Item key="1">
-          <Icon
-            component={() => (
-              <img
-                src={logo}
-                height="32px"
-                alt="logo"
-              />
-            )}
-          />
-        </Menu.Item>
-      </Menu>
-    </Layout.Header>
+      <a href="/"><img src={logo} height="32px" alt="logo" /></a>
+      
+    </nav>
   );
 };
 

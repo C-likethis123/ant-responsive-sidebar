@@ -19,9 +19,7 @@ function App() {
   const Menu = <TopicMenu topics={topics} selectedKey={selectedKey} changeSelectedKey={changeSelectedKey}/>
   return (
     <div className="App">
-      <Layout>
-        <NavBar menu={Menu}/>
-      </Layout>
+      <NavBar menu={Menu}/>
       <Layout>
         <SideBar menu={Menu} />
         <Layout.Content>
