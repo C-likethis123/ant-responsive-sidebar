@@ -9,8 +9,13 @@ import SideBar from './components/SideBar/SideBar';
 
 function App() {
   const topics = ['First topic', 'Second topic', 'Third topic']
+  const [contentIndex, setContentIndex] = useState(0)
   const [selectedKey, setSelectedKey] = useState("0");
-  const changeSelectedKey = (event) => setSelectedKey(event.key)
+  const changeSelectedKey = (event) => {
+    const key = event.key
+    setSelectedKey(key)
+    setContentIndex(+key)
+  }
   const Menu = <TopicMenu topics={topics} selectedKey={selectedKey} changeSelectedKey={changeSelectedKey}/>
   return (
     <div className="App">
@@ -19,6 +24,9 @@ function App() {
       </Layout>
       <Layout>
         <SideBar menu={Menu} />
+        <Layout.Content>
+          {topics[contentIndex]}
+        </Layout.Content>
       </Layout>
     </div>
   );
