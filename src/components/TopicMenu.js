@@ -1,6 +1,5 @@
 import React from "react";
 import {Menu} from "antd";
-//TODO: make whole of sidebar white, if not it's too ugly
 //TODO: display components when i click on something in the sidebar.
 
 const TopicMenu = ({ topics, selectedKey, changeSelectedKey }) => {
