@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc36c5e25e157f1cd6a4f5a01ff16cc2",
+    "revision": "c8f7e7c6004f47ea4ea5c30d7521de6f",
     "url": "/ant-responsive-sidebar/index.html"
   },
   {
-    "revision": "1cccea5420416c3d7f5d",
+    "revision": "1b52f9c99aba71045a80",
     "url": "/ant-responsive-sidebar/static/css/2.fc5a9450.chunk.css"
   },
   {
-    "revision": "aecfdc68f2bd5edd97c3",
+    "revision": "94c6db1458bf29b33ebf",
     "url": "/ant-responsive-sidebar/static/css/main.099f8c06.chunk.css"
   },
   {
-    "revision": "1cccea5420416c3d7f5d",
-    "url": "/ant-responsive-sidebar/static/js/2.9cc8062f.chunk.js"
+    "revision": "1b52f9c99aba71045a80",
+    "url": "/ant-responsive-sidebar/static/js/2.5fa0062a.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/ant-responsive-sidebar/static/js/2.9cc8062f.chunk.js.LICENSE.txt"
+    "url": "/ant-responsive-sidebar/static/js/2.5fa0062a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aecfdc68f2bd5edd97c3",
-    "url": "/ant-responsive-sidebar/static/js/main.041422d7.chunk.js"
+    "revision": "94c6db1458bf29b33ebf",
+    "url": "/ant-responsive-sidebar/static/js/main.dd23e4b0.chunk.js"
   },
   {
     "revision": "b0afd29459bc0a23c7c0",
