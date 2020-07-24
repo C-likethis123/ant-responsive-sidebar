@@ -7,7 +7,7 @@ import logo from './../../logo.svg';
 const NavBar = ({menu}) => {
   const [visible, setVisible] = useState(false);
   return (
-    <nav>
+    <nav className="navbar">
       <Button
           className="menu"
           type="primary"
@@ -22,8 +22,8 @@ const NavBar = ({menu}) => {
             visible={visible}
           >
           {menu}
-          </Drawer>
-      <a href="/"><img src={logo} height="32px" alt="logo" /></a>
+      </Drawer>
+      <a href="/"><img src={logo} className="logo" alt="logo" /></a>
       
     </nav>
   );
