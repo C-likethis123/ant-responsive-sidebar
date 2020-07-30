@@ -1,7 +1,7 @@
 # ant-responsive-sidebar
 
 ![Responsive SideBar](ui.png)
-This project demonstrates how to create a responsive sidebar with the Ant Design library.
+This project demonstrates how to create a responsive sidebar with the Ant Design library as part of the Medium article [Creating a Responsive Sidebar in Ant Design](https://medium.com/@chowjiaying211/creating-a-responsive-sidebar-in-ant-design-e26c7423789f).
 Tech stack: React, Ant Design
 To see a demo, head over to: http://c-likethis123.github.io/ant-responsive-sidebar
 
